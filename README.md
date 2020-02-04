@@ -17,6 +17,6 @@ Open Openfire in your Preferences, and click "open admin console". Continue, Con
 * view contacts
 * add friends
 * chat
-
+* or more?
 ## 3. About this application
 XMPP framework is downloaded from [this repo](https://github.com/robbiehanson/XMPPFramework).
