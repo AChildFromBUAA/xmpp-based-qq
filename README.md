@@ -20,3 +20,5 @@ Open Openfire in your Preferences, and click "open admin console". Continue, Con
 * or more?
 ## 3. About this application
 XMPP framework is downloaded from [this repo](https://github.com/robbiehanson/XMPPFramework).
+
+Swift might be Swift2, but I forget the iOS version, mb.
