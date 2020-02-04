@@ -1,0 +1,6 @@
+framework module Pods_xmpp_based_qq {
+  umbrella header "Pods-xmpp based qq-umbrella.h"
+
+  export *
+  module * { export * }
+}

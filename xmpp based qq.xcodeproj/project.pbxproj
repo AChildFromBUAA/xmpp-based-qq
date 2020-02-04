@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D09C42F1EC5F56F001A036C /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09C42E1EC5F56F001A036C /* MainTabViewController.swift */; };
+		6D09C4311EC5F5D7001A036C /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09C4301EC5F5D7001A036C /* MessageViewController.swift */; };
+		6D09C4331EC5F98D001A036C /* AppIcon-160x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D09C4321EC5F98D001A036C /* AppIcon-160x60@2x.png */; };
+		6D09C4351EC5F98D001A036C /* tab_buddy_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D09C4341EC5F98D001A036C /* tab_buddy_press@2x.png */; };
+		6D09C4381EC5F98D001A036C /* tab_recent_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D09C4361EC5F98D001A036C /* tab_recent_nor@2x.png */; };
+		6D09C4391EC5F98D001A036C /* tab_recent_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D09C4371EC5F98D001A036C /* tab_recent_press@2x.png */; };
+		6D09C43B1EC5F98D001A036C /* tab_buddy_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D09C43A1EC5F98D001A036C /* tab_buddy_nor@2x.png */; };
+		6D09C43D1EC5F98D001A036C /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D09C43C1EC5F98D001A036C /* MessageTableViewController.swift */; };
+		6D2C63E61EBA7D5400BDD4CF /* SwiftColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C63E51EBA7D5400BDD4CF /* SwiftColors.swift */; };
+		6D2FFF9F1ECBA8D900367DEC /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2FFF9E1ECBA8D900367DEC /* RegisterViewController.swift */; };
+		6D3220311ECA456A006A05D8 /* XmppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3220301ECA456A006A05D8 /* XmppManager.swift */; };
+		6D3BC2D71ECDBFF600B48633 /* 新的朋友.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3BC2D61ECDBFF600B48633 /* 新的朋友.png */; };
+		6D3BC2D91ECDC05F00B48633 /* AddFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC2D81ECDC05F00B48633 /* AddFriendsCell.swift */; };
+		6D3BC75C1ECCAA39000C5386 /* PickPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC75B1ECCAA39000C5386 /* PickPhotoViewController.swift */; };
+		6D3BC75E1ECCC241000C5386 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC75D1ECCC241000C5386 /* ContactsTableViewController.swift */; };
+		6D3BC7601ECCD148000C5386 /* XmppContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3BC75F1ECCD148000C5386 /* XmppContactModel.swift */; };
+		6D5C2B3F1EBF4BFB00895210 /* login_avatar_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5C2B3E1EBF4BFB00895210 /* login_avatar_default@2x.png */; };
+		6D5D38AD1EB8C1B800F85580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D38AC1EB8C1B800F85580 /* AppDelegate.swift */; };
+		6D5D38AF1EB8C1B800F85580 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D38AE1EB8C1B800F85580 /* LoginViewController.swift */; };
+		6D5D38B21EB8C1B800F85580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5D38B01EB8C1B800F85580 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
+		6D5D38B51EB8C1B800F85580 /* xmpp_based_qq.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D5D38B31EB8C1B800F85580 /* xmpp_based_qq.xcdatamodeld */; };
+		6D5D38B71EB8C1B800F85580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D5D38B61EB8C1B800F85580 /* Assets.xcassets */; };
+		6D5D38BA1EB8C1B800F85580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D5D38B81EB8C1B800F85580 /* LaunchScreen.storyboard */; };
+		6D6648BB1ED0D821005A15A2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6648BA1ED0D821005A15A2 /* ChatViewController.swift */; };
+		6D6648BD1ED10B45005A15A2 /* AddReqTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6648BC1ED10B45005A15A2 /* AddReqTableViewCell.swift */; };
+		6D6648BF1ED11A44005A15A2 /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6648BE1ED11A44005A15A2 /* AddNewViewController.swift */; };
+		6D6CA1C11EC904BF00B545AC /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6CA1C01EC904BF00B545AC /* MessageCell.swift */; };
+		6D85A2731ECDD08400081579 /* AddContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85A2721ECDD08400081579 /* AddContactsTableViewController.swift */; };
+		6D85A2751ECE210000081579 /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85A2741ECE210000081579 /* ChatTableViewController.swift */; };
+		6D85A2771ECE210000081579 /* XmppChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85A2761ECE210000081579 /* XmppChatModel.swift */; };
+		6D85A2791ECE210000081579 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D85A2781ECE210000081579 /* ChatTableViewCell.swift */; };
+		6DD2384F1ECDC691009E6156 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD2384E1ECDC691009E6156 /* ContactTableViewCell.swift */; };
+		6DDB0F281ECB99520064A865 /* XmppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB0F271ECB99520064A865 /* XmppUser.swift */; };
+		E97A864E6C13C540928E3736 /* Pods_xmpp_based_qq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9EB8848B90507C02E1A047 /* Pods_xmpp_based_qq.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BF2CD0C84D0FB122E3D18B8 /* Pods-xmpp based qq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmpp based qq.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xmpp based qq/Pods-xmpp based qq.debug.xcconfig"; sourceTree = "<group>"; };
+		5E13E447F04F915CE3A622BE /* Pods-xmpp based qq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xmpp based qq.release.xcconfig"; path = "Pods/Target Support Files/Pods-xmpp based qq/Pods-xmpp based qq.release.xcconfig"; sourceTree = "<group>"; };
+		6D09C42E1EC5F56F001A036C /* MainTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		6D09C4301EC5F5D7001A036C /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		6D09C4321EC5F98D001A036C /* AppIcon-160x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon-160x60@2x.png"; sourceTree = "<group>"; };
+		6D09C4341EC5F98D001A036C /* tab_buddy_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_buddy_press@2x.png"; sourceTree = "<group>"; };
+		6D09C4361EC5F98D001A036C /* tab_recent_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_recent_nor@2x.png"; sourceTree = "<group>"; };
+		6D09C4371EC5F98D001A036C /* tab_recent_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_recent_press@2x.png"; sourceTree = "<group>"; };
+		6D09C43A1EC5F98D001A036C /* tab_buddy_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_buddy_nor@2x.png"; sourceTree = "<group>"; };
+		6D09C43C1EC5F98D001A036C /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+		6D2C63E51EBA7D5400BDD4CF /* SwiftColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftColors.swift; path = "xmpp based qq/SwiftColors.swift"; sourceTree = "<group>"; };
+		6D2FFF9E1ECBA8D900367DEC /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6D3220301ECA456A006A05D8 /* XmppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmppManager.swift; sourceTree = "<group>"; };
+		6D3BC2D61ECDBFF600B48633 /* 新的朋友.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新的朋友.png"; sourceTree = "<group>"; };
+		6D3BC2D81ECDC05F00B48633 /* AddFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsCell.swift; sourceTree = "<group>"; };
+		6D3BC75B1ECCAA39000C5386 /* PickPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickPhotoViewController.swift; sourceTree = "<group>"; };
+		6D3BC75D1ECCC241000C5386 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		6D3BC75F1ECCD148000C5386 /* XmppContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmppContactModel.swift; sourceTree = "<group>"; };
+		6D5C2B3E1EBF4BFB00895210 /* login_avatar_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login_avatar_default@2x.png"; sourceTree = "<group>"; };
+		6D5D38A91EB8C1B800F85580 /* xmpp based qq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xmpp based qq.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5D38AC1EB8C1B800F85580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D5D38AE1EB8C1B800F85580 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6D5D38B11EB8C1B800F85580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D5D38B41EB8C1B800F85580 /* xmpp_based_qq.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = xmpp_based_qq.xcdatamodel; sourceTree = "<group>"; };
+		6D5D38B61EB8C1B800F85580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6D5D38B91EB8C1B800F85580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6D5D38BB1EB8C1B800F85580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6648BA1ED0D821005A15A2 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6D6648BC1ED10B45005A15A2 /* AddReqTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReqTableViewCell.swift; sourceTree = "<group>"; };
+		6D6648BE1ED11A44005A15A2 /* AddNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		6D6CA1C01EC904BF00B545AC /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		6D85A2721ECDD08400081579 /* AddContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactsTableViewController.swift; sourceTree = "<group>"; };
+		6D85A2741ECE210000081579 /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		6D85A2761ECE210000081579 /* XmppChatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmppChatModel.swift; sourceTree = "<group>"; };
+		6D85A2781ECE210000081579 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		6DD2384E1ECDC691009E6156 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		6DDB0F271ECB99520064A865 /* XmppUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XmppUser.swift; sourceTree = "<group>"; };
+		8B9EB8848B90507C02E1A047 /* Pods_xmpp_based_qq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xmpp_based_qq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D5D38A61EB8C1B800F85580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97A864E6C13C540928E3736 /* Pods_xmpp_based_qq.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F3776DF3E92249AF0BFF4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BF2CD0C84D0FB122E3D18B8 /* Pods-xmpp based qq.debug.xcconfig */,
+				5E13E447F04F915CE3A622BE /* Pods-xmpp based qq.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D2FFFA01ECBB7FB00367DEC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D38AE1EB8C1B800F85580 /* LoginViewController.swift */,
+				6D2FFF9E1ECBA8D900367DEC /* RegisterViewController.swift */,
+				6D3BC75B1ECCAA39000C5386 /* PickPhotoViewController.swift */,
+				6D09C42E1EC5F56F001A036C /* MainTabViewController.swift */,
+				6D3BC75D1ECCC241000C5386 /* ContactsTableViewController.swift */,
+				6D85A2721ECDD08400081579 /* AddContactsTableViewController.swift */,
+				6D85A2741ECE210000081579 /* ChatTableViewController.swift */,
+				6D09C43C1EC5F98D001A036C /* MessageTableViewController.swift */,
+				6D6648BA1ED0D821005A15A2 /* ChatViewController.swift */,
+				6D6648BE1ED11A44005A15A2 /* AddNewViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		6D2FFFA11ECBB82300367DEC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D6CA1C01EC904BF00B545AC /* MessageCell.swift */,
+				6D3BC2D81ECDC05F00B48633 /* AddFriendsCell.swift */,
+				6DD2384E1ECDC691009E6156 /* ContactTableViewCell.swift */,
+				6D85A2781ECE210000081579 /* ChatTableViewCell.swift */,
+				6D6648BC1ED10B45005A15A2 /* AddReqTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6D2FFFA21ECBB83C00367DEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D38B61EB8C1B800F85580 /* Assets.xcassets */,
+				6D5D38B81EB8C1B800F85580 /* LaunchScreen.storyboard */,
+				6D5D38BB1EB8C1B800F85580 /* Info.plist */,
+				6D5D38B31EB8C1B800F85580 /* xmpp_based_qq.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6D2FFFA31ECBB87700367DEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DDB0F271ECB99520064A865 /* XmppUser.swift */,
+				6D3220301ECA456A006A05D8 /* XmppManager.swift */,
+				6D3BC75F1ECCD148000C5386 /* XmppContactModel.swift */,
+				6D85A2761ECE210000081579 /* XmppChatModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6D5C2B3B1EBF4B6400895210 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BC2D61ECDBFF600B48633 /* 新的朋友.png */,
+				6D09C4361EC5F98D001A036C /* tab_recent_nor@2x.png */,
+				6D09C43A1EC5F98D001A036C /* tab_buddy_nor@2x.png */,
+				6D09C4371EC5F98D001A036C /* tab_recent_press@2x.png */,
+				6D09C4341EC5F98D001A036C /* tab_buddy_press@2x.png */,
+				6D5C2B3E1EBF4BFB00895210 /* login_avatar_default@2x.png */,
+				6D09C4321EC5F98D001A036C /* AppIcon-160x60@2x.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		6D5D38A01EB8C1B700F85580 = {
+			isa = PBXGroup;
+			children = (
+				6D2C63E51EBA7D5400BDD4CF /* SwiftColors.swift */,
+				6D5D38AB1EB8C1B800F85580 /* xmpp based qq */,
+				6D5D38AA1EB8C1B800F85580 /* Products */,
+				13F3776DF3E92249AF0BFF4A /* Pods */,
+				7258CCADA35BF9CABFE0BEFF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6D5D38AA1EB8C1B800F85580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D5D38A91EB8C1B800F85580 /* xmpp based qq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D5D38AB1EB8C1B800F85580 /* xmpp based qq */ = {
+			isa = PBXGroup;
+			children = (
+				6D2FFFA31ECBB87700367DEC /* Model */,
+				6D2FFFA11ECBB82300367DEC /* View */,
+				6D2FFFA01ECBB7FB00367DEC /* ViewController */,
+				6D5D38B01EB8C1B800F85580 /* Main.storyboard */,
+				6D5D38AC1EB8C1B800F85580 /* AppDelegate.swift */,
+				6D09C4301EC5F5D7001A036C /* MessageViewController.swift */,
+				6D5C2B3B1EBF4B6400895210 /* Resource */,
+				6D2FFFA21ECBB83C00367DEC /* Supporting Files */,
+			);
+			path = "xmpp based qq";
+			sourceTree = "<group>";
+		};
+		7258CCADA35BF9CABFE0BEFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B9EB8848B90507C02E1A047 /* Pods_xmpp_based_qq.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6D5D38A81EB8C1B800F85580 /* xmpp based qq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5D38BE1EB8C1B800F85580 /* Build configuration list for PBXNativeTarget "xmpp based qq" */;
+			buildPhases = (
+				2554F08806E94AABF85FD0BE /* [CP] Check Pods Manifest.lock */,
+				6D5D38A51EB8C1B800F85580 /* Sources */,
+				6D5D38A61EB8C1B800F85580 /* Frameworks */,
+				6D5D38A71EB8C1B800F85580 /* Resources */,
+				19BFF48C334CB04B479D40BC /* [CP] Embed Pods Frameworks */,
+				1B4AF289042DD210B1F66C95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xmpp based qq";
+			productName = "xmpp based qq";
+			productReference = 6D5D38A91EB8C1B800F85580 /* xmpp based qq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D5D38A11EB8C1B700F85580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					1,
+				);
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BUAA.Software;
+				TargetAttributes = {
+					6D5D38A81EB8C1B800F85580 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KXR4B4J3HJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6D5D38A41EB8C1B700F85580 /* Build configuration list for PBXProject "xmpp based qq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D5D38A01EB8C1B700F85580;
+			productRefGroup = 6D5D38AA1EB8C1B800F85580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D5D38A81EB8C1B800F85580 /* xmpp based qq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D5D38A71EB8C1B800F85580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D09C4331EC5F98D001A036C /* AppIcon-160x60@2x.png in Resources */,
+				6D5D38BA1EB8C1B800F85580 /* LaunchScreen.storyboard in Resources */,
+				6D5C2B3F1EBF4BFB00895210 /* login_avatar_default@2x.png in Resources */,
+				6D3BC2D71ECDBFF600B48633 /* 新的朋友.png in Resources */,
+				6D5D38B71EB8C1B800F85580 /* Assets.xcassets in Resources */,
+				6D5D38B21EB8C1B800F85580 /* Main.storyboard in Resources */,
+				6D09C43B1EC5F98D001A036C /* tab_buddy_nor@2x.png in Resources */,
+				6D09C4381EC5F98D001A036C /* tab_recent_nor@2x.png in Resources */,
+				6D09C4351EC5F98D001A036C /* tab_buddy_press@2x.png in Resources */,
+				6D09C4391EC5F98D001A036C /* tab_recent_press@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19BFF48C334CB04B479D40BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xmpp based qq/Pods-xmpp based qq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B4AF289042DD210B1F66C95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xmpp based qq/Pods-xmpp based qq-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2554F08806E94AABF85FD0BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D5D38A51EB8C1B800F85580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D5D38AF1EB8C1B800F85580 /* LoginViewController.swift in Sources */,
+				6DDB0F281ECB99520064A865 /* XmppUser.swift in Sources */,
+				6D6CA1C11EC904BF00B545AC /* MessageCell.swift in Sources */,
+				6D3BC7601ECCD148000C5386 /* XmppContactModel.swift in Sources */,
+				6D5D38B51EB8C1B800F85580 /* xmpp_based_qq.xcdatamodeld in Sources */,
+				6D3BC75C1ECCAA39000C5386 /* PickPhotoViewController.swift in Sources */,
+				6D09C4311EC5F5D7001A036C /* MessageViewController.swift in Sources */,
+				6D5D38AD1EB8C1B800F85580 /* AppDelegate.swift in Sources */,
+				6D6648BD1ED10B45005A15A2 /* AddReqTableViewCell.swift in Sources */,
+				6DD2384F1ECDC691009E6156 /* ContactTableViewCell.swift in Sources */,
+				6D2C63E61EBA7D5400BDD4CF /* SwiftColors.swift in Sources */,
+				6D6648BB1ED0D821005A15A2 /* ChatViewController.swift in Sources */,
+				6D3220311ECA456A006A05D8 /* XmppManager.swift in Sources */,
+				6D85A2771ECE210000081579 /* XmppChatModel.swift in Sources */,
+				6D85A2751ECE210000081579 /* ChatTableViewController.swift in Sources */,
+				6D09C42F1EC5F56F001A036C /* MainTabViewController.swift in Sources */,
+				6D2FFF9F1ECBA8D900367DEC /* RegisterViewController.swift in Sources */,
+				6D6648BF1ED11A44005A15A2 /* AddNewViewController.swift in Sources */,
+				6D3BC75E1ECCC241000C5386 /* ContactsTableViewController.swift in Sources */,
+				6D85A2731ECDD08400081579 /* AddContactsTableViewController.swift in Sources */,
+				6D85A2791ECE210000081579 /* ChatTableViewCell.swift in Sources */,
+				6D09C43D1EC5F98D001A036C /* MessageTableViewController.swift in Sources */,
+				6D3BC2D91ECDC05F00B48633 /* AddFriendsCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D5D38B01EB8C1B800F85580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5D38B11EB8C1B800F85580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6D5D38B81EB8C1B800F85580 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D5D38B91EB8C1B800F85580 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D5D38BC1EB8C1B800F85580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D5D38BD1EB8C1B800F85580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6D5D38BF1EB8C1B800F85580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF2CD0C84D0FB122E3D18B8 /* Pods-xmpp based qq.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXR4B4J3HJ;
+				INFOPLIST_FILE = "xmpp based qq/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.xmpp-based-qq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6D5D38C01EB8C1B800F85580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E13E447F04F915CE3A622BE /* Pods-xmpp based qq.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXR4B4J3HJ;
+				INFOPLIST_FILE = "xmpp based qq/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BUAA.Software.kyz.xmpp-based-qq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D5D38A41EB8C1B700F85580 /* Build configuration list for PBXProject "xmpp based qq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5D38BC1EB8C1B800F85580 /* Debug */,
+				6D5D38BD1EB8C1B800F85580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D5D38BE1EB8C1B800F85580 /* Build configuration list for PBXNativeTarget "xmpp based qq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D5D38BF1EB8C1B800F85580 /* Debug */,
+				6D5D38C01EB8C1B800F85580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6D5D38B31EB8C1B800F85580 /* xmpp_based_qq.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6D5D38B41EB8C1B800F85580 /* xmpp_based_qq.xcdatamodel */,
+			);
+			currentVersion = 6D5D38B41EB8C1B800F85580 /* xmpp_based_qq.xcdatamodel */;
+			path = xmpp_based_qq.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6D5D38A11EB8C1B700F85580 /* Project object */;
+}
