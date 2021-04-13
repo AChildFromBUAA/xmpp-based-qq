@@ -1,5 +1,5 @@
 # Instant messaging based on XMPP framework
- This is an instant messaging application based on XMPP framework in iOS plantform. I did it in 2016(or 2017?) but upload it in 2020 in order to save it somewhere(XD).
+ This is an instant messaging application based on XMPP framework in iOS plantform. I was working on it in 2016(updated to Swift new version in 2017) but upload it in 2020 in order to save it somewhere(XD).
  ## 1. Install Openfire
  This is an English version from my [CSDN blog](https://blog.csdn.net/AchildFromBUAA/article/details/50975727), but I cannot login now due to phone verification. :( 
 
